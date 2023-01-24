@@ -1,12 +1,10 @@
 @charset "UTF-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
 :root {
-  --body-bg-color: #FAF7FD;
-  --purple: #BB99DD;
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
 }
 
 * {
@@ -23,9 +21,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  font-family: 'Poppins', sans-serif;
-  color: #BB99DD;
+
+  font-family: "Poppins", sans-serif;
+  color: #bb99dd;
   font-size: 12px;
   font-weight: 300;
 }
@@ -34,8 +32,8 @@ header img {
   height: 150px;
   width: 150px;
   padding: 3px;
-  border: 3px solid #BB99DD;
-  
+  border: 3px solid #bb99dd;
+
   border-radius: 100%;
 }
 
@@ -51,7 +49,7 @@ header img {
   text-decoration: none;
 }
 
-#list-links a{
+#list-links a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,13 +59,11 @@ header img {
 
   border: 2px solid var(--purple);
   border-radius: 4px;
-  color: #BB99DD;
+  color: #bb99dd;
   font-weight: 600;
   margin: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 #list-links a:hover {
   color: white;
@@ -79,5 +75,6 @@ footer {
   text-align: center;
 }
 
-
-
+.icons {
+  padding: 10px;
+}
